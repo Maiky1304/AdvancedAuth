@@ -1,0 +1,22 @@
+################################
+## Advanced Auth by Maiky1304 ##
+################################
+
+#####################################
+## Available Authentication Types: ##
+## - Google                        ##
+#####################################
+
+settings:
+  # Server Name
+  # Change this to your liking
+  server-name: AdvancedAuth
+
+  # Make sure to define an available type.
+  authentication-type: Google
+
+  # Options for when a player is in 2FA Lock
+  disable-interact: true
+  disable-pvp: true
+  disable-movement: true
+  disable-inventoryclicks: true

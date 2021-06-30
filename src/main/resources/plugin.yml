@@ -1,0 +1,11 @@
+name: AdvancedAuth
+version: ${project.version}
+main: nl.maikyperlee.advancedauth.AdvancedAuth
+authors: [Maiky]
+description: An advanced auth plugin to keep your Minecraft server secure!
+website: https://advancedauth.maikyperlee.nl/get
+
+commands:
+  advancedauth:
+    description: AdvancedAuth main command that handles everything in the plugin
+    aliases: [aa,advanceda,auth]
